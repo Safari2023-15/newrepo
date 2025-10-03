@@ -14,5 +14,7 @@ public class Git {
 		driver.findElement(By.name("email")).sendKeys("Saheena@123gmail.com");
 		
 		driver.findElement(By.id("input-password")).sendKeys("Saheena@123");
+		
+		driver.findElement(By.id("login")).click();
 
 }}
