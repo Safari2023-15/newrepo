@@ -15,6 +15,7 @@ public class Git {
 		
 		driver.findElement(By.id("input-password")).sendKeys("Saheena@123");
 		
-		driver.findElement(By.id("login")).click();
+		
+		driver.findElement(By.xpath(//*[@id="content"]/div/div[2]/div/div/form/input")).click();
 
 }}
